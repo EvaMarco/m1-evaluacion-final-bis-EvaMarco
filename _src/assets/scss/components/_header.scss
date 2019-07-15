@@ -1,0 +1,43 @@
+.page__header {
+  position: fixed;
+  width: 100%;
+  background-color: $color-header-bg;
+  text-align: center;
+}
+.page__header .container {
+  margin: 0 88px;
+  @media all and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+  }
+  @media all and (min-width: 1024px) {
+    margin: 0 50px;
+  }
+}
+.adalab__icon {
+  margin: 10px 0;
+  height: 60px;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+.list__item {
+  margin: 0 20px 13px 0;
+  @media all and (min-width: 768px) {
+    margin-bottom: 0;
+  }
+
+  &:last-child {
+    margin: 0 0 13px;
+    @media all and (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
+}

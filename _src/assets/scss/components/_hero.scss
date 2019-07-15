@@ -1,0 +1,17 @@
+.page__hero{
+  min-height: 100vh;
+  background-image: url(../images/fondo.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.page__hero .container{
+  width: 100%;
+}
+.title__text{
+  width:160px;
+}

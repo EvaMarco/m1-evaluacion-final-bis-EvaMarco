@@ -1,0 +1,25 @@
+.header__text{
+  font-family:$font;
+  color:$color-header-txt;
+  font-size:$font-size-s;
+  text-transform: uppercase;
+  font-weight: $font-normal;
+  text-decoration: none;
+}
+
+.main__text{
+  font-family:$font;
+  color:$color-title;
+  font-size:$font-size-md;
+  font-weight: $font-bold;
+  @media all and (min-width:768px){
+    font-size:$font-size-xl;
+  }
+}
+
+.footer__text{
+  font-family:$font;
+  color:$color-footer-txt;
+  font-size:$font-size-s;
+  font-weight: $font-normal;
+}
