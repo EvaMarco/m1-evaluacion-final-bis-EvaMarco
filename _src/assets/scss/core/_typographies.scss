@@ -5,6 +5,11 @@
   text-transform: uppercase;
   font-weight: $font-normal;
   text-decoration: none;
+  transition: color ease 0.5s, text-decoration ease 0.5s;
+  &:hover{
+    color:$color-header-hover;
+    text-decoration: underline;
+  }
 }
 
 .main__text{
